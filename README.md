@@ -6,12 +6,12 @@ Olá! Sou a Alana, atuo com operações de cobrança/contas a receber, análise 
 ## Projetos
 
 ### 1. [Automação do tratamento de relatórios de cobrança](./projeto-1-automacao-relatorios)
-Scripts em Python que automatizam o tratamento diário dos relatórios que embasam o trabalho das analistas de cobrança — um processo manual que passou a ser executado em segundos.
+Scripts em Python que automatizam o tratamento diário dos relatórios que embasam o trabalho das analistas de cobrança, um processo manual que passou a ser executado em segundos.
 
 **Destaques:** pandas, tratamento de dados de contato, segmentação de carteira por regras de negócio, distribuição balanceada entre a equipe.
 
 ### 2. [Cálculo do caixa (recuperação) da cobrança](./projeto-2-calculo-caixa)
-Modelagem de uma regra de negócio não trivial para medir corretamente quanto do caixa recebido é, de fato, resultado da atuação da cobrança — com um comparativo direto de como evoluí o cálculo em relação ao método usado anteriormente pelo setor.
+Modelagem de uma regra de negócio não trivial para medir corretamente quanto do caixa recebido é, de fato, resultado da atuação da cobrança, com um comparativo direto de como evoluí o cálculo em relação ao método usado anteriormente pelo setor.
 
 **Destaques:** pandas, biblioteca `holidays`, regras condicionais por dia da semana.
 
