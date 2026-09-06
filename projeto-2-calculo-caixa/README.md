@@ -17,9 +17,9 @@ A regra implementada em `calculo_caixa.py` define um corte diferente por dia da 
 
 ## Evolução em relação ao método anterior
 
-O cálculo já existia antes, mas usava um **corte fixo de D-3** (`metodo_anterior.py`), igual para qualquer dia da semana. Isso tinha um efeito colateral não percebido: **descartava também títulos vencidos numa sexta-feira**, que ficam a 3-4 dias "de atraso" só por causa do fim de semana — subestimando a recuperação real gerada pela cobrança.
+O cálculo já existia antes, era feito usando Excel e usava um **corte fixo de D-3** (`metodo_anterior.py`), igual para qualquer dia da semana. Isso tinha um efeito colateral não percebido: **descartava também títulos vencidos numa sexta-feira**, que ficam a 3-4 dias "de atraso" só por causa do fim de semana, subestimando a recuperação real gerada pela cobrança.
 
-A régua por dia da semana corrigiu essa distorção e passou a capturar corretamente a recuperação de títulos vencidos às sextas-feiras, trazendo esse cálculo — antes feito de forma aproximada — para dentro do setor com mais precisão.
+A régua por dia da semana corrigiu essa distorção e passou a capturar corretamente a recuperação de títulos vencidos às sextas-feiras, trazendo esse cálculo, antes feito de forma aproximada, para dentro do setor com mais precisão.
 
 ## Técnicas e bibliotecas
 
