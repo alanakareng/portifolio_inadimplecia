@@ -24,7 +24,7 @@ Análise cruzando dados de uso do produto (SaaS) e de relacionamento com o time 
 
 - Atuação em cobrança/contas a receber, análise de dados e automação de processos
 - Construção de relatórios, dashboards e scripts em Python para apoiar decisões do setor de cobrança
-- Graduanda em Física (UFJF)
+- Graduanda em Ciências Exatas (UFJF)
 - Interesse em segurança da informação como próximo passo de carreira
 
 ## Stack utilizada nos projetos
