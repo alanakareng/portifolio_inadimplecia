@@ -3,22 +3,22 @@
 
 **Problema:** entender se existe uma relação entre o quanto um cliente usa a plataforma (o produto que a empresa vende) e o risco dele se tornar inadimplente, e se a atenção recebida do time de Customer Success também influencia esse risco.
 
-**Por que 2 meses:** um cliente inadimplente por mais de 60 dias corre o risco de perder o acesso à plataforma e parar de faturar. Por isso a janela de análise escolhida foi justamente os 2 meses (60 dias) anteriores ao início da inadimplência — é a janela em que ainda há tempo de agir antes de perder o cliente.
+**Por que 2 meses:** um cliente inadimplente por mais de 60 dias corre o risco de perder o acesso à plataforma e parar de faturar. Por isso a janela de análise escolhida foi justamente os 2 meses (60 dias) anteriores ao início da inadimplência, é a janela em que ainda há tempo de agir antes de perder o cliente.
 
 ## O que a análise faz
 
-1. **Limpeza e segmentação:** remove contas de teste/não definitivas e separa a base em três grupos — clientes adimplentes, inadimplentes ainda ativos e inadimplentes que já cancelaram.
+1. **Limpeza e segmentação:** remove contas de teste/não definitivas e separa a base em três grupos: clientes adimplentes, inadimplentes ainda ativos e inadimplentes que já cancelaram.
 2. **Uso da plataforma:** mede, para cada cliente inadimplente, o volume de eventos de produto, logins, auditorias e arquivos importados nos 2 meses antes do início da inadimplência, e compara com uma janela equivalente para um grupo de controle de clientes adimplentes.
 3. **Relacionamento com Customer Success:** cruza os inadimplentes com os indicadores de relacionamento do time de sucesso do cliente (reuniões realizadas, reunião de implantação, tentativas de contato), para checar se a falta de contato/onboarding também se relaciona com a inadimplência.
 4. **Velocidade até o cancelamento:** para quem cancelou, mede quantos dias se passaram entre o início do contrato/relacionamento e o início da inadimplência.
 
 ## Principais achados (ilustrativos)
 
-> Os números abaixo são arredondados/ilustrativos, para preservar dados internos da empresa — a lógica e a metodologia são as mesmas usadas na análise real.
+> Os números abaixo são arredondados/ilustrativos, para preservar dados internos da empresa - a lógica e a metodologia são as mesmas usadas na análise real.
 
 - Clientes inadimplentes usam a plataforma sensivelmente menos, nos 2 meses antes de entrar em inadimplência, do que clientes adimplentes na mesma janela de tempo, em todas as métricas de uso analisadas (eventos de produto, logins, arquivos importados).
 - Uma parcela relevante dos clientes inadimplentes nunca teve reunião registrada com o time de Customer Success, e uma parcela ainda maior nunca teve nenhuma tentativa de contato registrada, sugerindo que parte da inadimplência está associada a uma lacuna de relacionamento, não só a um problema financeiro do cliente.
-- Entre os clientes que cancelaram, uma parte relevante o fez em menos de 60 dias após o início da inadimplência — reforçando a importância de agir dentro dessa janela.
+- Entre os clientes que cancelaram, uma parte relevante o fez em menos de 60 dias após o início da inadimplência, reforçando a importância de agir dentro dessa janela.
 
 ## Técnicas e bibliotecas
 
